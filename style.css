@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  background: aquamarine;
+  padding: 50px;
+}
+
+.quiz-container {
+  background: lavenderblush;
+  padding: 20px;
+  border-radius: 10px;
+  width: 450px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+}
+
+.answer-btn {
+  margin: 5px 0;
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.correct {
+  background: #d4edda;
+}
+
+.incorrect {
+  background: #f8d7da;
+}
